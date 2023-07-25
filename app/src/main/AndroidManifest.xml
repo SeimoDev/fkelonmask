@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FkElonMask"
-        tools:targetApi="31" />
+        tools:targetApi="31" >
     <!-- 是否为Xposed模块 -->
     <meta-data
         android:name="xposedmodule"
@@ -28,4 +28,5 @@
     <meta-data
         android:name="xposedscope"
         android:resource="@array/xposedscope"/>
+    </application>
 </manifest>
